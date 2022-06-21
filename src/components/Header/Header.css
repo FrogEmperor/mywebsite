@@ -1,0 +1,22 @@
+.header-component{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Josefin Sans';
+    letter-spacing: .2em;
+    font-weight: 100;
+    font-size: 50px;
+}
+
+img{
+    height: 200px;
+    width: 250px;
+}
+
+p{
+    font-family: 'Josefin Sans';
+    font-weight: 500;
+}
