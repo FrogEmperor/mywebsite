@@ -2,21 +2,35 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    color:#1a1c1a;
+    margin: 40px 0 0 0;
+    width: 100%;
+}
+
+.title{
+    display:flex;
+    background-color: #DCBE87;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 h1{
-    font-family: 'Josefin Sans';
-    letter-spacing: .2em;
-    font-weight: 100;
+    font-weight: 500;
     font-size: 50px;
+    border-width: 5px;
+    font-family: 'Open Sans';
 }
 
-img{
+.pfp{
     height: 200px;
-    width: 250px;
+    width: 200px;
 }
 
 p{
-    font-family: 'Josefin Sans';
-    font-weight: 500;
+    font-family: 'Open Sans';
+    width: 600px;
+    font-weight: 400;
+    object-fit: cover;
+    line-height: 1.5;
 }

@@ -1,0 +1,21 @@
+.job-component{
+    display: flex;
+    flex-direction: column;
+    color:#1a1c1a;
+    margin: 4px 0 0 0;
+    border-width: 4px 0 0 0;
+    border-style:solid;
+    border-color: black;
+    max-width: 500px;
+}
+
+.job-description{
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    font-family: 'Open Sans';
+}
+
+h2{
+    font-family: 'Open Sans';
+}
